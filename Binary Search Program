@@ -13,6 +13,7 @@ def binarysearch(arr,target):
 
 n=int(input("Enter the size of array:"))
 arr=[]
+print("Enter elements in the array:")
 for i in range(n):
   arr.append(int(input()))
 
