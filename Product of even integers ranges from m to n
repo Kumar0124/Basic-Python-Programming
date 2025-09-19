@@ -1,0 +1,10 @@
+m=int(input("Enter the first integer value:"))
+n=int(input("Enter the second integer value:"))
+mul=1
+if(m<=n):
+  for i in range(m,n+1):
+    if(i%2==0):
+      mul=mul*i
+  print(f"Product of integers is {mul}")
+elif(m>n):
+  print("Product cannot be done")
