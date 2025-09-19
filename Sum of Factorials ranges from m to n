@@ -1,0 +1,12 @@
+m=int(input("Enter the first integer value:"))
+n=int(input("Enter the second integer value:"))
+sum=0
+if m<=n:
+  for i in range(m,n+1):
+    mul=1
+    for j in range(1,i+1):
+      mul*=j
+    sum+=mul
+  print(f"Factorial sum is {sum}")
+else:
+  print("Factorial sum is not possible")
