@@ -1,0 +1,10 @@
+m=int(input("Enter the first integer value:"))
+n=int(input("Enter the second integer value:"))
+sum=0
+if(m<=n):
+  for i in range(m,n+1):
+    if i%2!=0:
+      sum=(i*i*i)+sum
+  print(f"Cubic sum is {sum}")
+elif(m>n):
+  print("Cubic sum not possible")
